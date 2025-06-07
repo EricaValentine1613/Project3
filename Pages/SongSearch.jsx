@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
+import ContactPage from './ContactPage.jsx';
+import SavedSongs from './SavedSongs.jsx';
 
-// Mock search function (replace with real API call)
+const apiKey = process.env.AIzaSyD4hyFXrPw3i4jgNmNy46RgRZxwea8xI-c;
 const searchSongs = async (query) => {
     // Example static data, replace with API results
     const songs = [
-        { id: 1, title: 'Shape of You', artist: 'Ed Sheeran' },
-        { id: 2, title: 'Blinding Lights', artist: 'The Weeknd' },
-        { id: 3, title: 'Levitating', artist: 'Dua Lipa' },
+        { id: 1, title: 'Unsainted', artist: 'Slipknot' },
+        { id: 2, title: 'I Need You', artist: 'Lynyrd Skynyrd' },
+        { id: 3, title: 'Nothing Else Matters', artist: 'Metallica' },
     ];
     return songs.filter(
         (song) =>

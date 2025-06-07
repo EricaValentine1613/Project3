@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import SavedSongs from './ContactPage.jsx';
+import SongSearch from './SongSearch.jsx';
 
 // Helper functions for localStorage
 const SAVED_KEY = 'savedSongs';
