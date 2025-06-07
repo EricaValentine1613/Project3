@@ -17,7 +17,12 @@ const ContactPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission logic here
+        setForm({
+            firstName: '',
+            lastName: '',
+            email: '',
+            comments: '',
+        });
         alert('Form submitted!');
     };
 

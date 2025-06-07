@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import SavedSongs from './ContactPage.jsx';
 import SongSearch from './SongSearch.jsx';
-
-// Helper functions for localStorage
-const SAVED_KEY = 'savedSongs';
-const REMOVED_KEY = 'removedSongs';
+import { Container, Form, Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const getFromStorage = (key) => {
     const data = localStorage.getItem(key);
@@ -14,6 +12,8 @@ const getFromStorage = (key) => {
 const setToStorage = (key, data) => {
     localStorage.setItem(key, JSON.stringify(data));
 };
+const SAVED_KEY = 'savedSongs';
+const REMOVED_KEY = 'removedSongs';
 
 const SavedSongs = () => {
     const [savedSongs, setSavedSongs] = useState([]);
