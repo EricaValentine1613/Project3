@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
+import SavedSongs from './SavedSongs.jsx';
+import SongList from './SongList.jsx';
+import SongSearch from './SongSearch.jsx';
 
 const ContactPage = () => {
     const [form, setForm] = useState({
@@ -64,7 +67,7 @@ const ContactPage = () => {
                         value={form.comments}
                         onChange={handleChange}
                         rows={4}
-                        placeholder="Enter your comments"
+                        placeholder="Comments"
                     />
                 </Form.Group>
                 <Button variant="primary" type="submit">
