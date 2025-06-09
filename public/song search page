@@ -65,7 +65,7 @@ const SongSearch = () => {
                     </li>
                 ))}
             </ul>
-            <a href="/pages/SavedSongs" style={{ display: "block", marginTop: "2rem" }}>
+            <a href="./saved songs page" style={{ display: "block", marginTop: "2rem" }}>
                 Go to Saved Songs
             </a>
         </div>
