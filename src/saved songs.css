@@ -1,0 +1,106 @@
+/* saved songs.css */
+
+/* General page styles */
+body {
+    background: #181818;
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background: #282828;
+    padding: 24px 32px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #333;
+}
+
+/* Saved songs container */
+.saved-songs-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #222;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+
+/* Song item styles */
+.song-item {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #333;
+    transition: background 0.2s;
+}
+
+.song-item:last-child {
+    border-bottom: none;
+}
+
+.song-cover {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.song-info {
+    flex: 1;
+}
+
+.song-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.song-artist {
+    font-size: 0.95rem;
+    color: #b3b3b3;
+    margin: 4px 0 0 0;
+}
+
+.song-actions {
+    margin-left: 16px;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    color: #1db954;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.action-btn:hover {
+    background: #282828;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .saved-songs-container {
+        padding: 12px;
+    }
+    .song-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .song-cover {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .song-actions {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}
