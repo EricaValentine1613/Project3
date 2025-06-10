@@ -1,13 +1,20 @@
 
 import './App.css';
-import ListSongs from './components/ListSongs';
 import SavedSongsPage from './pages/SavedSongsPage';
+import AddSongs from './components/AddSongs';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from './components/Header';
 
 
 function App() {
   return (
- 
-   <SavedSongsPage />
+    
+      <BrowserRouter>
+       <Routes>
+           <Route path="/home" element={<SavedSongsPage />} />
+       </Routes>
+     </BrowserRouter>
+
   );
 }
 
