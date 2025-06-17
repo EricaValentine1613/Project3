@@ -8,17 +8,14 @@ const [songs, setSongs] = useState ([
         { id: 2, title: "Blinding Lights", artist: "The Weeknd" },
         { id: 3, title: "Levitating", artist: "Dua Lipa" },
     ]);
-    
-  return (
+  
+   return (
     <>
         <h1>Main Page for Songs</h1>
         <p>Here you can view and manage your saved songs.</p>
         <ListSongs songs={songs} setSongs={setSongs} />
         <AddSongs songs={songs} setSongs={setSongs} />
     </>
-  
+ 
   )
 }
-
-
-
