@@ -1,5 +1,5 @@
 import './App.css';
-import SavedSongsPage from './pages/SavedSongsPage';
+import SongsPage from './pages/SongsPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,10 +14,9 @@ function App() {
       <BrowserRouter>
       <Header />
        <Routes>
-           <Route path="/home" element={<SavedSongsPage />} />
-           <Route path="/" element={<SavedSongsPage />} />
-           <Route path="ListSongs" element={<SavedSongsPage />} />
-           <Route path="/" element={<SavedSongsPage />} />
+           <Route path="/home" element={<SongsPage />} />
+           <Route path="/" element={<SongsPage />} />
+           <Route path="List Songs" element={<SongsPage />} />
            <Route path="Contact" element={<Contact />} />
        </Routes>
      </BrowserRouter>

@@ -3,7 +3,7 @@ import ListSongs from '../components/ListSongs'
 import AddSongs from '../components/AddSongs'
 import Contact from '../components/Contact' 
 
-export default function SavedSongsPage() {
+export default function SongsPage() {
 const [songs, setSongs] = useState ([
         { id: 1, title: "Shape of You", artist: "Ed Sheeran" },
         { id: 2, title: "Blinding Lights", artist: "The Weeknd" },
