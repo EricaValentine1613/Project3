@@ -22,12 +22,15 @@ HTML, JavaScript, React, and CSS.
  3: As a first time user of this web app, I wanted to give my feedback to the creator of this page, so I filled out the contact form using the Contact page.
 
  # Future Imporvements:
- The app needs more styling.
- More overall experience with using React is definitley needed.
-Advanced features could be added throughout the entire web app.
+ 1.The app needs more styling.
+ 
+ 2.More overall experience with using React is definitley needed.
+
+3.Advanced features could be added throughout the entire web app.
 
 # Wire Frames:
 ![project 3 wireframe-1](https://github.com/user-attachments/assets/13588db7-16e9-4f99-9069-2f66b0146490)
+
 ![project 3 wireframe-2](https://github.com/user-attachments/assets/83104d42-86c2-4f47-8ed8-a2b2af7a7157)
 
 
