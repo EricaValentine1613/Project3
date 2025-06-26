@@ -13,6 +13,7 @@ export default function Header() {
           <Nav.Link as={Link} to="/AddSongs">Add Songs</Nav.Link>
           <Nav.Link as={Link} to="/SavedSongs">Saved Songs</Nav.Link>
           <Nav.Link as={Link} to="/ListSongs">List Songs</Nav.Link>
+          <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

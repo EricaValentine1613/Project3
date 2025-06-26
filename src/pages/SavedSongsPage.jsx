@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ListSongs from '../components/ListSongs'
 import AddSongs from '../components/AddSongs'
+import Contact from '../components/Contact' 
 
 export default function SavedSongsPage() {
 const [songs, setSongs] = useState ([
